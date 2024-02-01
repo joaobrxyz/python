@@ -1,0 +1,8 @@
+n = input('Digite seu nome completo: ')
+ma = n.upper()
+mi = n.lower()
+tl = n.replace(' ', '')
+ttl = len(tl)
+di = n.split()
+pn = len(di[0])
+print('Tudo maiúsculo: {} \nTudo minúsculo: {} \nQuantidade de letras {} \nQuantidades de letras no primeiro nome: {}'.format(ma, mi, ttl, pn))

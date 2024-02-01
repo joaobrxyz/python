@@ -1,0 +1,5 @@
+city = str(input('\033[36mDigite o nome da cidade: ')).strip()
+city0 = city.split()
+city1 = city0[0].upper()
+print('\033[35mEssa cidade começa com SANTO?\033[m')
+print('SANTO' in city1)
